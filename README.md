@@ -118,49 +118,66 @@
 ## **Parte 1 — Infraestructura Docker (5 capturas)**
 
 ## 1. Salida de docker --version y docker info en la terminal
+
 <img width="378" height="81" alt="image" src="https://github.com/user-attachments/assets/eda9c12a-978f-4292-a6e5-c5955fa8a2b1" />
 
 ## 2. Salida de docker network ls mostrando la red java-net
+
 <img width="676" height="225" alt="image" src="https://github.com/user-attachments/assets/11b5d5d9-c0e1-4e90-b1cd-ababc7657092" />
 
 
 
 ## 3. Salida de docker volume inspect mysql-data
+
 <img width="668" height="324" alt="image" src="https://github.com/user-attachments/assets/218d7ee4-78e5-40f1-84cc-8bab25957032" />
 
 
 ## 4. Salida de docker ps con ambos contenedores activos
 
 - Creamos el contenedor mysql-container
+
   <img width="871" height="451" alt="image" src="https://github.com/user-attachments/assets/8d322c0b-c962-497a-a9f2-c9615848c0f1" />
 
 - Creamos el contenedor payara-container
+
   <img width="913" height="337" alt="image" src="https://github.com/user-attachments/assets/c4f97635-e1ab-4ed0-ad37-02bdd47c8c05" />
 
 - ahora mostramos ambos contenedores activos
+
   <img width="1504" height="138" alt="image" src="https://github.com/user-attachments/assets/39baf8a2-9e32-4e83-9215-0936a42d1c58" />
 
 - vemos si lo podemos abrir desde el navegador el payara:
   - en el buscador: localhost:8080
+  
   <img width="1784" height="991" alt="image" src="https://github.com/user-attachments/assets/5be461c8-0c55-4fea-ac03-3f91f2ec469e" />
 
 
 - contenedor abierto
   - usuario: admin
   - contraseña: admin
+  
   <img width="1520" height="888" alt="image" src="https://github.com/user-attachments/assets/726bbd8d-ca76-4c85-9132-317030264c86" />
 
 ## 5. docker network inspect java-net con ambos contenedores en la red
+
 <img width="1123" height="998" alt="image" src="https://github.com/user-attachments/assets/df885c94-44b8-44da-b123-088bb4491808" />
 
 
 ## **Parte 2 — MySQL (3 capturas)**
 ## 6. Logs de MySQL mostrando: ready for connections
-![Logs de MySQL](capturas/06-mysql-logs.png)
+
+<img width="1704" height="830" alt="image" src="https://github.com/user-attachments/assets/b04b944b-fe04-406e-9dda-63893cca0bb7" />
+
 ## 7. Salida de SHOW DATABASES; mostrando la base appdb
-![Bases de datos](capturas/07-mysql-databases.png)
+
+<img width="844" height="471" alt="image" src="https://github.com/user-attachments/assets/fac3ff14-453e-45e9-ac52-35855ea77cf6" />
+
 ## 8. Salida de SELECT * FROM usuarios; con los datos del init.sql
-![Datos de usuarios](08-mysql-tabla.png)
+
+<img width="718" height="256" alt="image" src="https://github.com/user-attachments/assets/accc4420-cb89-409b-ba0c-63d21e4359c3" />
+
+<img width="959" height="531" alt="image" src="https://github.com/user-attachments/assets/23017ed4-24e8-4d07-9135-f3521c540971" />
+
 
 ## **Parte 3 — Payara Admin Console / GUI (5 capturas)**
 ## 9. Pantalla de login de Admin Console en http://localhost:4848
