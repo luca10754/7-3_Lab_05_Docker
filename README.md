@@ -118,15 +118,41 @@
 ## **Parte 1 — Infraestructura Docker (5 capturas)**
 
 ## 1. Salida de docker --version y docker info en la terminal
-![Versión de Docker](capturas/01-docker-version.png)
+<img width="378" height="81" alt="image" src="https://github.com/user-attachments/assets/eda9c12a-978f-4292-a6e5-c5955fa8a2b1" />
+
 ## 2. Salida de docker network ls mostrando la red java-net
-![Red creada](capturas/02-red-creada.png)
+<img width="676" height="225" alt="image" src="https://github.com/user-attachments/assets/11b5d5d9-c0e1-4e90-b1cd-ababc7657092" />
+
+
+
 ## 3. Salida de docker volume inspect mysql-data
-![Volumen MySQL](capturas/03-volumen-creado.png)
+<img width="668" height="324" alt="image" src="https://github.com/user-attachments/assets/218d7ee4-78e5-40f1-84cc-8bab25957032" />
+
+
 ## 4. Salida de docker ps con ambos contenedores activos
-![Contenedores activos](capturas/04-contenedores-corriendo.png)
+
+- Creamos el contenedor mysql-container
+  <img width="871" height="451" alt="image" src="https://github.com/user-attachments/assets/8d322c0b-c962-497a-a9f2-c9615848c0f1" />
+
+- Creamos el contenedor payara-container
+  <img width="913" height="337" alt="image" src="https://github.com/user-attachments/assets/c4f97635-e1ab-4ed0-ad37-02bdd47c8c05" />
+
+- ahora mostramos ambos contenedores activos
+  <img width="1504" height="138" alt="image" src="https://github.com/user-attachments/assets/39baf8a2-9e32-4e83-9215-0936a42d1c58" />
+
+- vemos si lo podemos abrir desde el navegador el payara:
+  - en el buscador: localhost:8080
+  <img width="1784" height="991" alt="image" src="https://github.com/user-attachments/assets/5be461c8-0c55-4fea-ac03-3f91f2ec469e" />
+
+
+- contenedor abierto
+  - usuario: admin
+  - contraseña: admin
+  <img width="1520" height="888" alt="image" src="https://github.com/user-attachments/assets/726bbd8d-ca76-4c85-9132-317030264c86" />
+
 ## 5. docker network inspect java-net con ambos contenedores en la red
-![Inspección de red](capturas/05-network-inspect.png)
+<img width="1123" height="998" alt="image" src="https://github.com/user-attachments/assets/df885c94-44b8-44da-b123-088bb4491808" />
+
 
 ## **Parte 2 — MySQL (3 capturas)**
 ## 6. Logs de MySQL mostrando: ready for connections
