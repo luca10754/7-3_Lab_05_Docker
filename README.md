@@ -191,9 +191,16 @@
  <img width="1520" height="888" alt="image" src="https://github.com/user-attachments/assets/726bbd8d-ca76-4c85-9132-317030264c86" />
 
 ## 11. Pantalla del Connection Pool MySQLPool creado
-![Connection Pool MySQLPool](capturas/11-connection-pool.png)
+
+<img width="1188" height="641" alt="image" src="https://github.com/user-attachments/assets/20918468-7609-46bf-bb39-fa1e3f551a05" />
+
+<img width="1602" height="636" alt="image" src="https://github.com/user-attachments/assets/f5a6ff8d-33b6-41f8-adaf-02174a38d4e3" />
+
+
 ## 12. Resultado del botón Ping mostrando conexión exitosa a MySQL
-![Ping a MySQL](capturas/12-ping-exitoso.png)
+
+<img width="1610" height="608" alt="image" src="https://github.com/user-attachments/assets/832d4ff2-a73b-4a49-96c7-fc7507fc4082" />
+
 ## 13. JDBC Resource jdbc/MySQLDS visible en la consola
 ![JDBC Resource](capturas/13-jdbc-resource.png)
 
